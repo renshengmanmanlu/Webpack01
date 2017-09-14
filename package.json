@@ -1,0 +1,28 @@
+{
+  "name": "webpack01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && set NODE_ENV=production&& webpack",
+    "dev": "set NODE_ENV=development&& node dev-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renshengmanmanlu/Webpack01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renshengmanmanlu/Webpack01/issues"
+  },
+  "homepage": "https://github.com/renshengmanmanlu/Webpack01#readme",
+  "devDependencies": {
+    "webpack": "^3.5.6"
+  },
+  "dependencies": {
+    "save-dev": "^2.0.0",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
